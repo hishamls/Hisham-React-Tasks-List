@@ -3,7 +3,7 @@ import React from "react";
 import TaskItem from "../TaskItem/TaskItem";
 import "./TasksList.css";
 
-const CourseGoalList = (props) => {
+const TasksList = (props) => {
   return (
     <ul className="goal-list">
       {props.items.map((task) => (
@@ -16,4 +16,4 @@ const CourseGoalList = (props) => {
   );
 };
 
-export default CourseGoalList;
+export default TasksList;
