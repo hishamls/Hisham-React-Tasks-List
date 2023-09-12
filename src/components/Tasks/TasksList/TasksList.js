@@ -1,6 +1,6 @@
 import React from "react";
 
-import TaskItem from "../CourseGoalItem/TaskItem";
+import TaskItem from "../TaskItem/TaskItem";
 import "./TasksList.css";
 
 const CourseGoalList = (props) => {
